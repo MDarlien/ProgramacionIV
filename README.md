@@ -3,6 +3,6 @@ Proyecto de programación IV
 
 integrantes:
 Maykol
-Lizbeth
+Liseth
 Isidro
 Ezequiel
