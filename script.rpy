@@ -1,63 +1,31 @@
-﻿# You can place the script of your game in this file.
-
-# Declare images below this line, using the image statement.
-# eg. image eileen happy = "eileen_happy.png"
-
-# Declare characters used by this game.
-define e = Character('Detective',color="#0D8DB0")
-define a = Character( 'Art', color="#0D8DB0")
-define b = Character('Burn', color="#0D8DB0")
-define c = Character('Carl', color="#0D8DB0")
-define w = Character('Gato', color="#0D8DB0")
-image fondo = "menu3.jpg"
-image carcel = "interno.jpg"
+image cdp ="fondo2.png"
+image oficina="fondo3.png"
 image testigos ="testigos.png"
 image victima ="victima.png"
-image negro = "#000000"
-image sala = "saladesospechosos.png"
-image detective = "detective.png"
-image art = "art.png"
-image burn = "burn.png"
-image carl = "carl.png"
-image gato = "gato.png"
+image reportera="reportera2.png"
+image detective ="detective.png"
+image peter ="peter.png"
+image lois ="lois.png"
+image stewie ="stewie2.png"
+image tm = "tm.png"
+image th = "th.png"
 
-# The game starts here.
+define d = Character('Detective',color="#0D8DB0")
+define pt = Character( 'Peter', color="#0D8DB0")
+define ls = Character('Lois', color="#0D8DB0")
+define st = Character('Stewie', color="#0D8DB0")
+define r = Character('reportera', color="#0D8DB0")
+define tm= Character('Testigo', color="#0D8DB0")
+define th= Character('Testigo', color="#0D8DB0")
+
 label start:
-
-scene fondo9
-
-show detective
-e "Bienvenidos, Soy un Detective tratando de resolver un caso de asesinato."
-e "Tenemos tres sospechosos de este asesinato; Art, Burn y Carl."
-hide detective
-show testigos at left
-e "Los testigos afirman haber los vistos con la victima (Caroline) 3 dias antes de su asesinato."
-scene victima
-e "... eh aqui la victima."
-e "Caroline fue encontrada en las afueras de la ciudad."
-scene sala
-e "eh dado con los sospechosos."
-e "Aqui sus declaraciones:"
-scene carcel
-show art at left
-a "Lo unico que puedo decir es lo siguiente:"
-a "Burn y Carl eran amigos de la victima, "
-show burn at left
-b "yo no hice nada estaba fuera del pueblo nisiquiera conocia a esa tal Caroline "
-b "pero la victima y Carl eran enemigos mortales"
-hide burn at left
-
-show gato at left
-w "Y este no era amigo de nadie!!, y ese burn no me cae bien, habla mucho"
-hide gato at left
-show burn at left
-b "Callate gato no me conoces para que hables asi de mi "
-hide burn at left
-show detective
-e "que pase el ultimo sospechoso"
-hide detective
-show carl at left 
-c "yo no hice nada soy inocente y no culpare a nadie porque no se quien lo hizo"
-c "pero yo vi a burn y art conduciendo en el pueblo"
+    scene cdp
+    show reportera
+    r "buen día televidentes, en horas de la mañana se encontró el cadáver de la famosa estrella canina Brian o conner." 
+    r "en las afueras de la ciudad de Panamá, se desconoce las causas de su muerte."
+    r "Esta noticia nos tiene a todos consternados ya que la estrella era muy querida por el pueblo panameño." 
+    r "Está con nosotros el detective Peñate quien es el encargado en este caso."
+    hide reportera
 
 return
+
