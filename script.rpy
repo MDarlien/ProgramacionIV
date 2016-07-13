@@ -42,6 +42,10 @@ scene carcel
 show art at left
 a "Lo unico que puedo decir es lo siguiente:"
 a "Burn era amigo de la victima, pero la victima y Carl eran enemigos mortales"
+show burn at left
+b "yo no hice nada estaba fuera del pueblo nisiquiera conocia a esa tal Caroline "
 show gato at left
 w "Y este no era amigo de nadie!!, y ese burn no me cae bien, habla mucho"
+show burn at left
+b "Callate gato no me conoces para que hables asi de mi "
 return
