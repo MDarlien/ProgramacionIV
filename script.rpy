@@ -113,7 +113,11 @@ label start:
     show lois at right
     ls "Yo no hice nada yo no  estuve con ellos, la pase todo el día en el mall"
     ls "Lo único que puedo decir es que mis hijos no se llevaban bien"
-    d  "su hijo Stewie es adoptado como lo era Brian??"
+   
+   show detective at left
+   d  "su hijo Stewie es adoptado como lo era Brian??"
+   hide detective
+   
     ls "sí, fue nuestro primer hijo adoptivo, luego llego Brian"
     hide lois 
  
