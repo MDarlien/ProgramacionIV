@@ -2,7 +2,7 @@ image cdp ="fondo2.png"
 image oficina="fondo3.png"
 image testigos ="testigos.png"
 image victima ="victima.png"
-#image negro ="#000000"
+
 image reportera="reportera2.png"
 image detective ="detective.png"
 image peter ="peter.png"
@@ -32,13 +32,11 @@ label start:
     show detective at left
     d "lo único que puedo decir es que estamos  investigando los hechos para dar con el presunto asesino."
 
-    #########  
 
     scene oficina
     show detective 
     d "quienes son ustedes?"
     hide detective
-    #(chris Griffin y Meg G.)
     show testigos at right
     ts"buenas tardes detective venimos a dar nuestra declaración sobre el asesinato de la estrella Brian O conner"
     hide testigos
@@ -47,8 +45,6 @@ label start:
     d "ok... tomare sus decalciones de manera individual"
     d "pase el primer testigo"
  
-
-    ########
 
     scene oficina
     show th at right
@@ -76,26 +72,27 @@ label start:
     hide tm 
 
     show detective at left
-    d  "ok! Me puede facilitar el nombre de los familiares que salieron con la victima?"
+    d  "ok! Me puede facilitar los nombres de los familiares, que salieron con la victima?"
     hide detective
 
     show tm
     tm "si claro… la familia Griffin"
     tm "la señito se llama Lois, el señor Peter y el niño Stewie"
-    tm "tenía entendido que el niño es adoptado y tiene problemas mentales"
+    tm "tenía entendido que el niño es adoptado"
+    tm "y que tiene problemas mentales pero se llevaba bien con Brian"
     hide tm
 
     show detective
     d "gracias por la valiosa información"
     hide detective 
     
-#########
+
 
     show sospechosos at right 
     d "buenas! Soy el detective Peñate, y necesito sus declaraciones ya que son sospechosos del asesinato de Brian"
     hide sospechosos 
     
-  #########
+  
 
    
     show detective at right
